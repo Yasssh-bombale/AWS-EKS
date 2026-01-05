@@ -44,6 +44,11 @@ Verify: `aws sts get-caller-identity`[kubernetes**+2**](https://kubernetes.io/do
 </span></span><span>  --managed
 </span><span></span></code></span></div></div></div></pre>
 
+example 
+```
+eksctl create cluster --name first-cluster --region ap-south-1 --node-type t3.small --nodes-min 2 --nodes-max 3
+```
+
 **Timeline** : 15-20 mins. Monitors: `eksctl get clusters`[aws.amazon](https://docs.aws.amazon.com/eks/latest/eksctl/installation.html)
 
 ## 3. Verify Cluster
